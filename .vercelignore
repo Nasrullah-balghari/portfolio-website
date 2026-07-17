@@ -1,0 +1,9 @@
+# Source art kept locally but not needed on the server.
+# logo-mark.png is what the favicons + og-image were generated from — keep it
+# in the project so icons can be regenerated, just don't ship it.
+assets/logo.png
+assets/logo1.png
+assets/logo-mark.png
+
+# 48px icon is embedded inside favicon.ico; the standalone file is unused.
+assets/favicon-48x48.png
