@@ -1,49 +1,44 @@
-# TaskFlow
+# Portfolio — Nasrullah Balghari
 
-> A signals-driven Angular task manager with drag-and-drop boards and a keyboard-first workflow.
+> My personal developer portfolio — WordPress & Angular UI work, shipped projects, and how to reach me.
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://taskflow-sooty-chi.vercel.app/)
+[![Live Site](https://img.shields.io/badge/Live_Site-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://nasrullah-dev.vercel.app/)
 
-`Angular` · `TypeScript` · `SCSS` · `Angular CDK`
+`HTML5` · `CSS3` · `JavaScript` · `Responsive Design`
 
 ---
 
 ## Overview
 
-TaskFlow is a fast, reactive task manager built on Angular signals. It's designed around speed and keyboard control — drag-and-drop boards, a command palette, and a workflow that keeps your hands off the mouse. Built to explore modern Angular patterns (signals, standalone components) in a real, usable app.
+A fast, responsive single-page portfolio showcasing 3+ years of web development work — WooCommerce stores, Elementor builds, Angular UI, and Figma-to-pixel-perfect front ends. Built to load fast, rank well, and convert visitors into clients.
 
 ## Features
 
-- 🗂️ Drag-and-drop task boards powered by Angular CDK
-- ⌨️ Command palette for fast, keyboard-first navigation
-- ⚡ Reactive state built entirely on Angular signals
-- 📱 Fully responsive, clean UI
+- ⚡ Fast, lightweight, and fully responsive
+- 🎨 Clean dark UI with smooth section navigation
+- 🗂️ Filterable project showcase with live links
+- 🔍 SEO-optimized with Open Graph / Twitter cards
+- 📬 Direct contact via email and WhatsApp
 
 ## Tech Stack
 
-**Framework** `Angular` · `TypeScript`
-**Styling** `SCSS`
-**Interactions** `Angular CDK` (drag-and-drop)
+**Frontend** `HTML5` · `CSS3` · `JavaScript`
+**Design** `Responsive` · `SEO`
+**Hosting** `Vercel`
+
+<!-- If this portfolio is built with a framework, update the stack line above
+     (e.g. React · Next.js · Tailwind) so it matches the actual code. -->
 
 ## Getting Started
 
 ```bash
 # Clone the repo
-git clone https://github.com/Nasrullah-balghari/TaskFlow.git
-cd TaskFlow
+git clone https://github.com/Nasrullah-balghari/portfolio-website.git
+cd portfolio-website
 
-# Install dependencies
-npm install
-
-# Run the dev server
-ng serve
-# open http://localhost:4200
+# Open index.html in your browser, or serve locally:
+npx serve .
 ```
-
-## Screenshots
-
-<!-- Add a board screenshot for instant impact: -->
-<!-- ![TaskFlow board](./screenshots/board.png) -->
 
 ---
 
