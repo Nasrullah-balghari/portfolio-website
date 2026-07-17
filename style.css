@@ -329,7 +329,11 @@ footer{border-top:1px solid var(--border);padding:36px 0}
     padding: 14px 15px;
 }
 }
-
+@media(max-width:375px){
+.hero .btn-row {
+    flex-direction: column;
+}
+}
 @media(prefers-reduced-motion:reduce){
   *{animation-duration:.001ms!important;transition-duration:.001ms!important}
   .reveal{opacity:1;transform:none}.marquee{animation:none}.atmosphere{animation:none}
