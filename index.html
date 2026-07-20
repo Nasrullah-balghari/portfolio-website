@@ -15,10 +15,11 @@
 
 <!-- FAVICONS -->
 <link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
-<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
-<link rel="manifest" href="site.webmanifest">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/icon-192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
 
 <!-- OPEN GRAPH (Facebook, LinkedIn, WhatsApp) -->
 <meta property="og:type" content="website">
@@ -41,7 +42,8 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Figtree:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://s.wordpress.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 
 <!-- STRUCTURED DATA (JSON-LD) — one @graph so the nodes cross-reference by @id -->
@@ -145,6 +147,112 @@
         { "@type": "ListItem", "position": 8, "name": "KC Maxx Performance", "url": "https://kcmaxxperformance.com/" },
         { "@type": "ListItem", "position": 9, "name": "Saphiros Health", "url": "https://saphiroshealth.com/" }
       ]
+    },
+    {
+      "@type": "OfferCatalog",
+      "@id": "https://nasrullah-dev.vercel.app/#services",
+      "name": "Web development services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "WordPress Development",
+            "description": "Custom themes, plugins and complete WordPress builds tailored to your brand and goals.",
+            "serviceType": "WordPress Development",
+            "provider": { "@id": "https://nasrullah-dev.vercel.app/#person" },
+            "areaServed": "Worldwide"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "E-commerce Development",
+            "description": "WooCommerce and Shopify stores with secure checkout and conversion-focused design.",
+            "serviceType": "E-commerce Development",
+            "provider": { "@id": "https://nasrullah-dev.vercel.app/#person" },
+            "areaServed": "Worldwide"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Page Builder Development",
+            "description": "Pixel-perfect, responsive sites built with Elementor, Divi and clean custom CSS.",
+            "serviceType": "Page Builder Development",
+            "provider": { "@id": "https://nasrullah-dev.vercel.app/#person" },
+            "areaServed": "Worldwide"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Website Speed & SEO Optimization",
+            "description": "Performance tuning, Core Web Vitals and on-page SEO so your site ranks and loads fast.",
+            "serviceType": "SEO and Performance Optimization",
+            "provider": { "@id": "https://nasrullah-dev.vercel.app/#person" },
+            "areaServed": "Worldwide"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://nasrullah-dev.vercel.app/#faq",
+      "isPartOf": { "@id": "https://nasrullah-dev.vercel.app/#webpage" },
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much does a WordPress website cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends on scope. A polished multi-page business site typically lands in a different range than a full WooCommerce store with custom checkout logic. I quote per project after a short discovery call, so you get one fixed price with no hourly surprises."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to build a website?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A standard business or portfolio site usually takes two to three weeks from kickoff to launch. WooCommerce stores and larger custom builds run four to six weeks. I share a timeline up front and keep you updated at each milestone."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you convert a Figma design into a working website?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — this is a core part of my work. I build pixel-perfect, fully responsive front ends from Figma, XD or PSD files, matching spacing, typography and interaction states rather than approximating them."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you build WooCommerce and online stores?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. I build WooCommerce and Shopify stores with secure checkout, payment gateway integration, product filtering and a conversion-focused layout, plus the analytics needed to see what is actually selling."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you work with Elementor or write custom code?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Both. I use Elementor and Divi where a page builder genuinely speeds delivery, and write custom themes and clean CSS where performance or flexibility matters. The choice follows the project, not habit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you offer ongoing maintenance and support after launch?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. I offer post-launch support covering plugin and core updates, security monitoring, backups, speed checks and content changes, either as a monthly retainer or on demand."
+          }
+        }
+      ]
     }
   ]
 }
@@ -205,7 +313,7 @@
     <div class="hero-copy">
       <div class="status-pill reveal"><span class="status-dot"></span> Open to Remote &amp; Full-Time Opportunities</div>
       <p class="kicker reveal">WordPress &amp; Angular UI Developer · Rawalpindi, PK</p>
-      <h1 class="reveal">I build websites<br>that <span class="accent-italic" id="typeWord">convert.</span><span class="type-caret" id="typeCaret"></span></h1>
+      <h1 class="reveal">WordPress &amp; Angular Developer<br>building websites that <span class="accent-italic" id="typeWord">convert.</span><span class="type-caret" id="typeCaret"></span></h1>
       <p class="lead reveal">A results-driven developer with 3+ years building responsive WordPress, Wix and Squarespace sites — and Angular UI work at SAUFIK Technologies. I turn Figma designs into pixel-perfect, fast-loading websites.</p>
       <div class="btn-row reveal">
         <a href="#work" class="btn btn-primary">See my work
@@ -445,7 +553,7 @@
   <div class="wrap about-grid">
     <div class="reveal">
       <div class="avatar-frame"><div class="avatar">
-        <img class="avatar-photo" src="assets/nasrullah.jpg" alt="Nasrullah Balghari">
+        <img class="avatar-photo" loading="lazy" src="assets/nasrullah.jpg" alt="Nasrullah Balghari — WordPress &amp; Angular UI Developer">
         <div class="code-tag">&lt;/ WordPress + Angular UI &gt;</div>
       </div></div>
     </div>
@@ -554,6 +662,43 @@
         <blockquote>Reliable, responsive, and highly professional. Nasrullah transformed our ideas into a polished website that exceeded our expectations. The entire process was smooth from start to finish.</blockquote>
         <div class="client"><div class="client-av">D</div><div><div class="client-name">Daniel Wilson</div><div class="client-role">Founder</div></div></div>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="pad" id="faq">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow center">Good to know</span>
+      <h2>Frequently asked questions</h2>
+      <p>The things most clients ask before we start — answered up front.</p>
+    </div>
+    <div class="faq-list">
+      <details class="faq-item reveal">
+        <summary>How much does a WordPress website cost?</summary>
+        <div class="faq-answer"><p>It depends on scope. A polished multi-page business site typically lands in a different range than a full WooCommerce store with custom checkout logic. I quote per project after a short discovery call, so you get one fixed price with no hourly surprises.</p></div>
+      </details>
+      <details class="faq-item reveal">
+        <summary>How long does it take to build a website?</summary>
+        <div class="faq-answer"><p>A standard business or portfolio site usually takes two to three weeks from kickoff to launch. WooCommerce stores and larger custom builds run four to six weeks. I share a timeline up front and keep you updated at each milestone.</p></div>
+      </details>
+      <details class="faq-item reveal">
+        <summary>Can you convert a Figma design into a working website?</summary>
+        <div class="faq-answer"><p>Yes — this is a core part of my work. I build pixel-perfect, fully responsive front ends from Figma, XD or PSD files, matching spacing, typography and interaction states rather than approximating them.</p></div>
+      </details>
+      <details class="faq-item reveal">
+        <summary>Do you build WooCommerce and online stores?</summary>
+        <div class="faq-answer"><p>Yes. I build WooCommerce and Shopify stores with secure checkout, payment gateway integration, product filtering and a conversion-focused layout, plus the analytics needed to see what is actually selling.</p></div>
+      </details>
+      <details class="faq-item reveal">
+        <summary>Do you work with Elementor or write custom code?</summary>
+        <div class="faq-answer"><p>Both. I use Elementor and Divi where a page builder genuinely speeds delivery, and write custom themes and clean CSS where performance or flexibility matters. The choice follows the project, not habit.</p></div>
+      </details>
+      <details class="faq-item reveal">
+        <summary>Do you offer ongoing maintenance and support after launch?</summary>
+        <div class="faq-answer"><p>Yes. I offer post-launch support covering plugin and core updates, security monitoring, backups, speed checks and content changes, either as a monthly retainer or on demand.</p></div>
+      </details>
     </div>
   </div>
 </section>
