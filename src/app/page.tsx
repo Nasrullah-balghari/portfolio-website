@@ -338,6 +338,7 @@ export default function Home() {
           <a href="#about" onClick={closeMenu}>About</a>
           <a href="/assets/Nasrullah-resume.pdf" target="_blank" rel="noopener" onClick={closeMenu}>Resume</a>
         </nav>
+        <a href="#contact" className="btn btn-primary mobile-cta" onClick={closeMenu}>Let&apos;s Talk <MailStrokeIcon /></a>
         <div className="mobile-socials">
           <a href="https://www.linkedin.com/in/nasrullah-balghari/" target="_blank" rel="noopener" aria-label="LinkedIn"><LinkedInIcon /></a>
           <a href="https://github.com/nasrullah-balghari" target="_blank" rel="noopener" aria-label="GitHub"><GitHubIcon /></a>
