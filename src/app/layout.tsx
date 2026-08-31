@@ -1,16 +1,17 @@
-import type { Metadata, Viewport } from 'next'
+﻿import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 const SITE = 'https://nasrullah-dev.vercel.app'
-const TITLE = 'Nasrullah Balghari | Software Engineer & Frontend Developer'
-const DESCRIPTION = 'Software Engineer with 3+ years of experience building production web applications, WordPress platforms, Angular interfaces, e-commerce websites and modern frontend experiences.'
+const TITLE = 'Nasrullah Balghari — WordPress & Next.js Frontend Developer'
+const DESCRIPTION = 'Frontend developer with 3+ years building WordPress sites, WooCommerce stores and Next.js & Angular web apps. See my projects or hire me for your website.'
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE),
   title: TITLE,
   description: DESCRIPTION,
-  keywords: 'WordPress, Next.js, React, Angular, TypeScript, Frontend Developer, Software Engineer',
-  authors: [{ name: 'Nasrullah Balghari' }],
+  keywords: 'WordPress developer, frontend developer, Next.js developer, Angular developer, WooCommerce, Elementor, React, TypeScript, web developer Pakistan',
+  authors: [{ name: 'Nasrullah Balghari', url: SITE }],
+  creator: 'Nasrullah Balghari',
   alternates: { canonical: '/' },
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   manifest: '/site.webmanifest',
@@ -36,7 +37,7 @@ export const metadata: Metadata = {
         url: `${SITE}/assets/og-image.png`,
         width: 1200,
         height: 630,
-        alt: 'Nasrullah Balghari — Software Engineer & Frontend Developer',
+        alt: 'Nasrullah Balghari — WordPress & Next.js Frontend Developer',
       },
     ],
   },
@@ -59,8 +60,8 @@ const structuredData = {
       '@type': 'WebSite',
       '@id': `${SITE}/#website`,
       url: `${SITE}/`,
-      name: 'Nasrullah Balghari — WordPress & Angular UI Developer',
-      description: 'Portfolio of Nasrullah Balghari, a WordPress and Angular UI developer based in Rawalpindi, Pakistan.',
+      name: 'Nasrullah Balghari — WordPress & Next.js Frontend Developer',
+      description: 'Portfolio of Nasrullah Balghari, a WordPress and Next.js frontend developer based in Rawalpindi, Pakistan.',
       inLanguage: 'en',
       publisher: { '@id': `${SITE}/#person` },
     },
@@ -68,7 +69,7 @@ const structuredData = {
       '@type': 'ProfilePage',
       '@id': `${SITE}/#webpage`,
       url: `${SITE}/`,
-      name: 'Nasrullah Balghari | WordPress & Angular UI Developer',
+      name: 'Nasrullah Balghari | WordPress & Next.js Frontend Developer',
       isPartOf: { '@id': `${SITE}/#website` },
       about: { '@id': `${SITE}/#person` },
       mainEntity: { '@id': `${SITE}/#person` },
@@ -82,7 +83,7 @@ const structuredData = {
       contentUrl: `${SITE}/assets/og-image.png`,
       width: 1200,
       height: 630,
-      caption: 'Nasrullah Balghari — WordPress & Angular UI Developer',
+      caption: 'Nasrullah Balghari — WordPress & Next.js Frontend Developer',
     },
     {
       '@type': 'Person',
@@ -97,7 +98,7 @@ const structuredData = {
         width: 800,
         height: 800,
       },
-      jobTitle: 'WordPress & Angular UI Developer',
+      jobTitle: 'WordPress & Next.js Frontend Developer',
       description: 'Results-driven software developer with 3+ years in web development, specializing in WordPress, WooCommerce, Elementor and Angular UI.',
       email: 'mailto:nasrullahbalghari676@gmail.com',
       telephone: '+92-340-4412985',
@@ -111,7 +112,7 @@ const structuredData = {
       worksFor: { '@type': 'Organization', name: 'SAUFIK Technologies' },
       hasOccupation: {
         '@type': 'Occupation',
-        name: 'WordPress & Angular UI Developer',
+        name: 'WordPress & Next.js Frontend Developer',
         occupationLocation: { '@type': 'City', name: 'Rawalpindi' },
         skills: 'WordPress, WooCommerce, Elementor, DIVI, WP-Bakery, Wix, Squarespace, Angular, JavaScript, HTML5, CSS3, Figma, Git',
       },

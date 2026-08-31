@@ -3,6 +3,12 @@
   "framework": "nextjs",
   "headers": [
     {
+      "source": "/resume.html",
+      "headers": [
+        { "key": "X-Robots-Tag", "value": "noindex" }
+      ]
+    },
+    {
       "source": "/assets/(.*)",
       "headers": [
         {

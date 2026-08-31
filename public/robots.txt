@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://nasrullah-dev.vercel.app/sitemap.xml
